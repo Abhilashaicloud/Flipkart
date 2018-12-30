@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testcases.TC001_LoginAndLogout">
+      <class name="testcases.FlipkartClasswork">
         <methods>
-          <include name="login" invocation-numbers="0 1"/>
+          <include name="afterSuite"/>
           <include name="afterTest"/>
           <include name="beforeSuite"/>
-          <include name="afterSuite"/>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
           <include name="setData"/>
+          <include name="flipkartwrk"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- testcases.TC001_LoginAndLogout -->
+      </class> <!-- testcases.FlipkartClasswork -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

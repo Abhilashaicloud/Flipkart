@@ -76,7 +76,7 @@ public class SeMethods extends Reporter implements WdMethods{
 		try {
 			ele.clear();
 			ele.sendKeys(data);
-			String x = ""+ele;
+			//String x = ""+ele;
 			reportStep("The data: "+data+" entered successfully in the field :"+ele, "PASS");
 		} catch (InvalidElementStateException e) {
 			reportStep("The data: "+data+" could not be entered in the field :"+ele,"FAIL");
